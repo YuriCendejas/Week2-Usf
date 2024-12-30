@@ -1,0 +1,40 @@
+h1 {
+    font-size: 2em;
+    transition:font-size 1s ; 
+    /*the s after the 1 ,.stands for secs, 
+    to time how soon you want the transition to work.
+    Doing transitions for fonts isnt ideal
+     but its an option*/
+     color:aquamarine
+}
+
+h1:hover {
+    font-size:4em;
+    color: blue;
+
+}
+
+button:hover{
+    transform: translateX(200px); 
+    /*This moves from left to right on
+     the X axis (which is the website)*/
+transition:transform 2s ease-in;
+}
+
+a{ /* just a anchor tag hovering affect*/
+    display: inline-block;
+    font-style:1.5em;
+    text-decoration: none;
+    padding:1em;
+    border:3px solid green;
+    text-transform:uppercase;
+    letter-spacing:0.1em;
+    color:blueviolet;
+    transform: color 0.3s ease-in,background-color 0.3s ease-in;
+
+}
+
+a:hover{
+    color:white;
+    background-color: springgreen;
+}

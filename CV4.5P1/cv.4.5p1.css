@@ -1,0 +1,167 @@
+
+h1{ background-color: rgb(255, 193, 210);
+    color: aliceblue; 
+    text-align: center;
+   padding:1px;
+   font-family: 'Open Sans', 'Helvetica Neue', sans-serif;
+   
+   }     
+
+h2 { background-color: rgb(255, 193, 210);
+   color: aliceblue;
+    text-align:center;  
+   /* all of the h2 centered  for my perference*/
+padding: 1px; 
+
+
+}
+
+
+
+   h3{ background-color: rgb(246, 206, 218);
+      color: rgb(172, 61, 107);
+       text-align:center;
+   text-shadow: -3px -7px 2px rgb(239, 41, 137);
+
+padding-top: 1px;
+} /* this is the "you can also contact me" heading */
+   
+
+   body{ background-color: rgb(255, 228, 236);
+      margin: 5px;
+      padding: 6em;
+    }
+
+
+    @media (max-width:800px)
+     {
+    body { background-color:rgb(175, 5, 5); 
+      min-width:480px;
+    }
+    h1{background-color: rgb(14, 41, 63);
+         font-family: "Rubik Puddles", serif;
+         font-weight: 400;
+         font-style: normal; /*so when you shrink the
+          screen, my name font changes,like a underground theme font*/
+       }
+       
+      h2 {
+         background-color: rgb(6, 37, 90);
+    }
+    #education,#ed2,h3{
+      background-color: rgb(1, 14, 46);
+    }
+    }
+    /*this is for when you shrink the screen it changes color */ 
+
+
+a {text-decoration: none;}
+/* this is for the links removal of the line underneth them*/
+
+html{font-size:2em;
+   font-size:16px;
+   min-width: 480px;
+}
+
+caption { color: rgb(0, 0, 0);
+   /*i thought pink would just make more sense, 
+   since i already have it in my theme*/
+font-size: 35px;
+text-align: center;
+position: relative;
+left: 3%;
+  font-family: "Tilt Prism", serif; /*i got this code
+   from google fonts*/
+  font-weight: 400;
+  font-style: normal;
+  font-variation-settings:
+    "XROT" -17,
+    "YROT" 0;
+}
+
+ .About{ font-style: italic;
+   border-color: rgb(2, 2, 3);
+   border-style:dotted;
+   border-width: 5px;
+}
+
+
+#education { font-style: italic;
+   color:rgb(161, 56, 93)
+
+}
+#ed2 { font-style: oblique; 
+   color:rgb(169, 78, 126)
+}
+
+
+button:hover{color:deeppink;
+    font-style:italic;
+border-color: rgb(4, 4, 4);
+border-style: dotted;
+padding:4px;
+}
+
+input:hover{background-color: hotpink;
+}
+    
+p:first-of-type::first-letter{ 
+   font-size: 2em;
+}
+
+   Input:focus::placeholder { color: black;
+   }
+
+   .RS {
+
+      border: 5px black;
+      padding-top:2em;
+      border-style: dotted;
+ box-sizing: border-box;
+width: 50%;
+text-align: center;
+   }
+
+   img{
+      border-style:double;
+      border-width: 10px;
+      box-sizing:border-box;
+      border-radius:20%;
+      position:relative;
+      left: -2%;
+      top: 2px;
+      clip-path: circle(); /*made made my image a circle*/
+      display: block; 
+      width:auto; /* My picture to 
+      adjust itself on smaller 
+      devices if it needs to.*/
+   }
+
+   .Info{ position: relative;
+    left: 60%;/* the contact info to the "right"
+   so the way i could do ,that was using the "left "*/
+
+    max-width:50%; /*making sure it doesnt 
+    create a slidebar going left*/
+   }
+
+   .WR,.YA{
+      display: inline-block;
+      /* i just wanted it side by side since i
+       felt like it goes together in a way.*/
+      }
+    
+
+      .name{
+         transition:font-size 1s ; 
+         font-size:1em; 
+     Color:rgb(245, 92, 143); 
+     font-family: "Meie Script", serif;
+  font-style: normal;
+}
+
+.name:hover{
+   font-size:2em;
+   color: rgb(18, 192, 223);
+}
+      
